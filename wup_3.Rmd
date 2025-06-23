@@ -51,7 +51,7 @@ After running the Inferential test we find that the probability of the people in
 plot(TukeyHSD(model1))
 ```
 
-When looking at the model we see 
+When looking at the model we see that the middle compared to the back does not have 0 in their confidence interval. The same is true when you compare the front and the back. This also indicates that their is no statistical difference between the front and the middle. The back is different from everybody else.
 
 ## Conclusions
 
