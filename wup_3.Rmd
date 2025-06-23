@@ -39,14 +39,14 @@ favstats(alcohol~Seat,data=davisdata)
 The third quantile of the front is 2 and the third quantile of the middle is 3. The median of the back is 4 so in this case the median of the back is higher than the third quantile of both the front and middle.
 
 ## Numerical Summarys 
-
+## Inferential Tests
 ```{r}
 model1 <- aov(alcohol~Seat,data=davisdata)
 summary.aov(model1)
 ```
 
+After running the Inferential test we find that the probability of the people in the front and middle consuming the same amount of alcohol as the people in the back being 0.00116. Therefore there is a significant difference between the 3.
 
-## Inferential Tests
 
 ## Conclusions
 
