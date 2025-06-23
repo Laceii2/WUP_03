@@ -33,6 +33,11 @@ Based off the boxplot the median of people who sit in the back as I see it is hi
 ### get fancy  
 
 ```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
+
+
+```{r}
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
 ```
 
